@@ -4,7 +4,7 @@
 
 
 [![Build Status](https://travis-ci.com/kleveross/ormb.svg?branch=master)](https://travis-ci.com/kleveross/ormb)
-[![Coverage Status](https://coveralls.io/repos/github/kleveross/ormb/badge.svg?branch=master)](https://coveralls.io/github/kleveross/ormb?branch=master)
+[![Coverage Status](https://coveralls.io/repos/github/djcrabhat/ormb/badge.svg?branch=master)](https://coveralls.io/github/djcrabhat/ormb?branch=master)
 
 English | [中文](./README_zh.md)
 
