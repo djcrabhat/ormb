@@ -5,7 +5,7 @@ go 1.17
 require (
 	github.com/containerd/containerd v1.3.4
 	github.com/deislabs/oras v0.8.1
-	github.com/docker/docker v1.4.2-0.20200203170920-46ec8731fbce
+	github.com/docker/docker v20.10.27+incompatible
 	github.com/golang/mock v1.4.4
 	github.com/mitchellh/go-homedir v1.1.0
 	github.com/onsi/ginkgo v1.13.0
@@ -21,7 +21,7 @@ require (
 )
 
 require (
-	github.com/Azure/go-ansiterm v0.0.0-20170929234023-d6e3b3328b78 // indirect
+	github.com/Azure/go-ansiterm v0.0.0-20210617225240-d185dfc1b5a1 // indirect
 	github.com/Microsoft/go-winio v0.4.15-0.20190919025122-fc70bd9a86b5 // indirect
 	github.com/Microsoft/hcsshim v0.8.7 // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
@@ -41,6 +41,7 @@ require (
 	github.com/gofrs/uuid v3.3.0+incompatible // indirect
 	github.com/gogo/protobuf v1.3.2 // indirect
 	github.com/golang/protobuf v1.4.3 // indirect
+	github.com/google/go-cmp v0.5.9 // indirect
 	github.com/gorilla/handlers v1.4.2 // indirect
 	github.com/gorilla/mux v1.7.4 // indirect
 	github.com/hashicorp/golang-lru v0.5.1 // indirect
@@ -51,6 +52,7 @@ require (
 	github.com/magiconair/properties v1.8.1 // indirect
 	github.com/matttproud/golang_protobuf_extensions v1.0.1 // indirect
 	github.com/mitchellh/mapstructure v1.1.2 // indirect
+	github.com/moby/term v0.5.0 // indirect
 	github.com/morikuni/aec v1.0.0 // indirect
 	github.com/nxadm/tail v1.4.4 // indirect
 	github.com/opencontainers/runc v0.1.1 // indirect
@@ -79,5 +81,6 @@ require (
 	google.golang.org/protobuf v1.26.0-rc.1 // indirect
 	gopkg.in/ini.v1 v1.51.0 // indirect
 	gopkg.in/tomb.v1 v1.0.0-20141024135613-dd632973f1e7 // indirect
+	gotest.tools/v3 v3.5.1 // indirect
 	rsc.io/letsencrypt v0.0.3 // indirect
 )
