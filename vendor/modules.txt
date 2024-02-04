@@ -1,5 +1,5 @@
-# github.com/Azure/go-ansiterm v0.0.0-20170929234023-d6e3b3328b78
-## explicit
+# github.com/Azure/go-ansiterm v0.0.0-20210617225240-d185dfc1b5a1
+## explicit; go 1.16
 github.com/Azure/go-ansiterm
 github.com/Azure/go-ansiterm/winterm
 # github.com/Microsoft/go-winio v0.4.15-0.20190919025122-fc70bd9a86b5
@@ -84,7 +84,7 @@ github.com/docker/distribution/registry/client/auth/challenge
 github.com/docker/distribution/registry/client/transport
 github.com/docker/distribution/registry/storage/cache
 github.com/docker/distribution/registry/storage/cache/memory
-# github.com/docker/docker v1.4.2-0.20200203170920-46ec8731fbce
+# github.com/docker/docker v20.10.27+incompatible
 ## explicit
 github.com/docker/docker/api/types
 github.com/docker/docker/api/types/blkiodev
@@ -103,11 +103,8 @@ github.com/docker/docker/pkg/ioutils
 github.com/docker/docker/pkg/jsonmessage
 github.com/docker/docker/pkg/longpath
 github.com/docker/docker/pkg/stringid
-github.com/docker/docker/pkg/tarsum
 github.com/docker/docker/pkg/term
-github.com/docker/docker/pkg/term/windows
 github.com/docker/docker/registry
-github.com/docker/docker/registry/resumable
 github.com/docker/docker/rootless
 # github.com/docker/docker-credential-helpers v0.6.3
 ## explicit
@@ -147,6 +144,8 @@ github.com/golang/protobuf/ptypes
 github.com/golang/protobuf/ptypes/any
 github.com/golang/protobuf/ptypes/duration
 github.com/golang/protobuf/ptypes/timestamp
+# github.com/google/go-cmp v0.5.9
+## explicit; go 1.13
 # github.com/gorilla/handlers v1.4.2
 ## explicit
 # github.com/gorilla/mux v1.7.4
@@ -187,6 +186,10 @@ github.com/mitchellh/go-homedir
 # github.com/mitchellh/mapstructure v1.1.2
 ## explicit
 github.com/mitchellh/mapstructure
+# github.com/moby/term v0.5.0
+## explicit; go 1.18
+github.com/moby/term
+github.com/moby/term/windows
 # github.com/morikuni/aec v1.0.0
 ## explicit
 github.com/morikuni/aec
@@ -397,5 +400,7 @@ gopkg.in/tomb.v1
 # gopkg.in/yaml.v2 v2.3.0
 ## explicit
 gopkg.in/yaml.v2
+# gotest.tools/v3 v3.5.1
+## explicit; go 1.17
 # rsc.io/letsencrypt v0.0.3
 ## explicit
